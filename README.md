@@ -1,24 +1,11 @@
-# README
+Initial setup
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* rails new "app-name" -T (skip tests)
+* Install the following gems to the Gemfile
+  - spring, spring-commands-rspec, rspec-rails, factory_girl_rails (All in test and development)
+  - capybara (just in test)
+* bundle install new files
+```bash
+* bin/rails g rspec:install
+* bundle exec spring binstub --all
+```
